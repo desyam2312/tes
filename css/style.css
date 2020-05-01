@@ -1,0 +1,108 @@
+body {
+font-family: 'Raleway', sans-serif;
+}
+.main{
+width: 1015px;
+position: absolute;
+top: 10%;
+left: 20%;
+}
+#form_head{
+text-align: center;
+background-color: #FEFFED;
+height: 66px;
+margin: 0 0 -29px 0;
+padding-top: 35px;
+padding-bottom: 22px;
+border-radius: 8px 8px 0 0;
+color: rgb(97, 94, 94);
+}
+#content {
+width: 481px;
+height: auto;
+border: 2px solid gray;
+border-radius: 10px;
+margin-top: -45px;
+margin-left: -60px;
+}
+#form_input{
+font-size: 16px;
+font-family: 'Raleway', sans-serif;
+margin-left: 50px;
+margin-top: 36px;
+}
+label{
+margin-right: 6px;
+}
+#form_button{
+padding: 0 21px 15px 15px;
+bottom: 0px;
+width: 445px;
+background-color: #FEFFED;
+border-radius: 0px 0px 8px 8px;
+border-top: 1px solid #9A9A9A;
+}
+.submit{
+font-size: 16px;
+font-family: 'Raleway', sans-serif;
+background: linear-gradient(#ffbc00 5%, #ffdd7f 100%);
+border: 1px solid #e5a900;
+color: #4E4D4B;
+font-weight: bold;
+cursor: pointer;
+width: 300px;
+border-radius: 5px;
+padding: 10px 0;
+outline: none;
+margin-top: 20px;
+margin-left: 15%;
+}
+.submit:hover{
+background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
+}
+.label_output{
+color:#4A85AB;
+margin-left: 10px;
+}
+.dropdown_box{
+font-size: 16px;
+font-family: 'Raleway', sans-serif;
+height:40px;
+width:240px;
+border-radius:3px;
+background-color:#FEFFED;
+margin-left: 0px;
+}
+.input_box{
+font-size: 16px;
+font-family: 'Raleway', sans-serif;
+height:40px;
+width:240px;
+padding:5px;
+border-radius:3px;
+border: 1px solid #A9A9A9;
+background-color:#FEFFED;
+}
+.textarea_input{
+margin-left: 145px;
+margin-top: -16px;
+}
+textarea{
+font-family: 'Raleway', sans-serif;
+font-size: 16px;
+padding:5px;
+background-color:#FEFFED;
+margin-left: 0px;
+}
+.address_div{
+width: 50px;
+height:auto;
+}
+#res_msg{
+font-family: 'Raleway', sans-serif;
+font-size: 16px;
+position: absolute;
+top: 610px;
+left: 328px;
+color: blue;
+}
